@@ -27,7 +27,7 @@ const Form = ({ spentCreate }) => {
               Nombre
             </label>
             <input
-              className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500"
               type="text"
               placeholder="Ingrese el nombre del gasto"
               name="nombre"
@@ -42,7 +42,7 @@ const Form = ({ spentCreate }) => {
               Monto
             </label>
             <input
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               type="text"
               placeholder="Ingrese el monto gastado"
               name="monto"
@@ -53,11 +53,11 @@ const Form = ({ spentCreate }) => {
           <div>
             <label
               htmlFor="categorias"
-              className="block mb-2 text-sm font-bold text-gray-900 dark:text-white">
+              className="block mb-2 text-sm font-bold text-gray-900">
               Categoria
             </label>
             <select
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               value={categoria}
               onChange={(e) => setCategoria(e.target.value)}>
               <option defaultValue={"Elige una categoria"}>
@@ -71,7 +71,7 @@ const Form = ({ spentCreate }) => {
           <button
             className="btn font-bold bg-green-500 hover:bg-green-700 p-2 rounded text-white mt-6 cursor-pointer"
             type="submit">
-            Agregar Producto
+            Agregar Gasto
           </button>
         </form>
       </div>

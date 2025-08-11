@@ -23,7 +23,7 @@ const Form = ({ spentCreate }) => {
           <div className="mb-6">
             <label
               htmlFor="large-input"
-              className="block mb-2 text-sm font-bold text-gray-900 dark:text-white">
+              className="block mb-2 text-sm font-bold text-gray-900">
               Nombre
             </label>
             <input
@@ -38,7 +38,7 @@ const Form = ({ spentCreate }) => {
           <div className="mb-6">
             <label
               htmlFor="default-input"
-              className="block mb-2 text-sm font-bold text-gray-900 dark:text-white">
+              className="block mb-2 text-sm font-bold text-gray-900 ">
               Monto
             </label>
             <input
